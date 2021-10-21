@@ -70,6 +70,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => $db_config['host'],
             'port' => env('DB_PORT', '5432'),
+            // 'port' => $db_config['DB_PORT'],
             'database' => $db_config['database'],
             'username' => $db_config['username'],
             'password' => $db_config['password'],
